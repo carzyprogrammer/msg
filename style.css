@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: chartreuse;
+}
+
+.ansbox{
+    margin-left: 40%;
+    margin-top: 0%;
+}
+#user1{
+    margin-top: 0%;
+    height: 30%;
+    width: 30%;
+    border: 3px solid red;
+}
+#user2{
+    margin-top: 0%;
+    margin-left: 60%;
+    height: 0%;
+    width: 30%;
+    border: 3px solid rgb(55, 12, 247);
+}
+#ansbox{
+    background-color: aliceblue;
+    margin-top: 2%;
+    margin-right: 30%;
+    border: 5px solid green;
+}
+#button{
+    color:black;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+#buttona{
+    color: black;
+    font-weight: bolder;
+    background-color: cornsilk;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    size: 10%;
+    height: 10%;
+    width: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+}
