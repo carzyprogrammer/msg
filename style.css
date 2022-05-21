@@ -2,25 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: chartreuse;
+    background-color: aquamarine;
 }
 
 .ansbox{
     margin-left: 40%;
     margin-top: 0%;
 }
+
 #user1{
     margin-top: 0%;
-    height: 30%;
-    width: 30%;
+    height: 90%;
+    width: 40%;
     border: 3px solid red;
+    background-image: url(boy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
 }
 #user2{
     margin-top: 0%;
     margin-left: 60%;
-    height: 0%;
-    width: 30%;
+    height: 90%;
+    width: 40%;
     border: 3px solid rgb(55, 12, 247);
+    background-image: url(girls.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #ansbox{
     background-color: aliceblue;
@@ -29,18 +38,36 @@
     border: 5px solid green;
 }
 #button{
-    color:black;
-    font-weight: bold;
-    background-color: aquamarine;
+    display: flex;
+    margin-left: 0%;
+    justify-content: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 250%;
+    width: 30%;
+    background-color: rgb(86, 167, 32);
+}
+#buttons{
+    
+    justify-content: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 250%;
+    width: 30%;
+    margin-right: 10%;
+    background-color: rgb(86, 167, 32);
+
 }
 #buttona{
+    background-color: rgb(173, 141, 13);
+    display: flex;
+    margin-left: 0%;
+    justify-content: center;
     color: black;
-    font-weight: bolder;
-    background-color: cornsilk;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    size: 20%;
-    height: 20%;
-    width: 20%;
-    margin-right: 10%;
-    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 250%;
+    width: 30%;
 }
